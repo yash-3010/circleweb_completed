@@ -70,6 +70,7 @@
 .nav-btn:focus {
   background-color: #ff6600;
   color: #fff;
+  outline: 0;
 }
 
 .nav-btn-home {
