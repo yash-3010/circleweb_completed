@@ -85,17 +85,6 @@
   outline: 0;
 }
 
-
-.nav-btn-home {
-  height: 100%;
-  text-align: center;
-  padding: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 1.125rem;
-  text-transform: uppercase;
-}
-
 .main-img {
   width: 100%;
   height: 200px;
@@ -486,8 +475,4 @@
     color: #000;
   }
 
-  .nav-btn-home {
-    background-color: #ff6600;
-    color: #fff;
-  }
 }
