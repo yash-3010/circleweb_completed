@@ -81,12 +81,16 @@
   display: block;
   cursor: pointer;
 }
+.nav-btn:hover{
+  background-color: rgb(254 215 170);
+}
 
 .nav-btn:focus {
   background-color: #ff6600;
   color: #fff;
   outline: 0;
 }
+
 
 .nav-btn-home {
   height: 100%;

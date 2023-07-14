@@ -19,18 +19,18 @@
     />
   </head>
   <body>
-    <div class="nav-div">
+    <header class="nav-div">
       <img class="logo-img" src="./images/logo.png" alt="logo" />
       <i id="toggle" class="fa fa-bars fa-2x menu-btn" aria-hidden="true"></i>
-      <div id="nav" class="nav-op-div tg-off">
+      <nav id="nav" class="nav-op-div tg-off">
         <button class="nav-btn">Home</button>
         <button class="nav-btn">about</button>
         <button class="nav-btn">service</button>
         <button class="nav-btn">portfolio</button>
         <button class="nav-btn">blog</button>
         <button class="nav-btn">contact</button>
-      </div>
-    </div>
+      </nav>
+    </header>
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
@@ -82,7 +82,7 @@
       tenetur, praesentium hic maiores sit non architecto cupiditate nostrum
       quo.
     </p>
-    <div class="out-serv-ele-div">
+    <section class="out-serv-ele-div">
       <div class="ele-out-div">
         <div class="img-in-div">
           <i class="fa fa-desktop fa-4x imwhite" aria-hidden="true"></i>
@@ -123,20 +123,20 @@
         </p>
         <button class="read-more-btn">Read More</button>
       </div>
-    </div>
+    </section>
     <h1 class="main-title">Our Latest Projects</h1>
-    <div class="prj-out-div">
-      <img class="prj" src="./images/i1.jpg" alt="color" />
-      <img class="prj" src="./images/i2.jpg" alt="shiva" />
-      <img class="prj" src="./images/i1.jpg" alt="color" />
-      <img class="prj" src="./images/i2.jpg" alt="shiva" />
-      <img class="prj" src="./images/i2.jpg" alt="shiva" />
-      <img class="prj" src="./images/i1.jpg" alt="color" />
-      <img class="prj" src="./images/i2.jpg" alt="shiva" />
-      <img class="prj" src="./images/i1.jpg" alt="color" />
-    </div>
-    <div class="sec-out-div iHaveBgImage">
-      <img class="lap-img" src="./images/i11.png" alt="laptop" />
+    <section class="prj-out-div">
+      <img class="prj" src="./images/i1.jpg" alt="colors image" />
+      <img class="prj" src="./images/i2.jpg" alt="shiva image" />
+      <img class="prj" src="./images/i1.jpg" alt="color image" />
+      <img class="prj" src="./images/i2.jpg" alt="shiva image" />
+      <img class="prj" src="./images/i2.jpg" alt="shiva image" />
+      <img class="prj" src="./images/i1.jpg" alt="color image" />
+      <img class="prj" src="./images/i2.jpg" alt="shiva image" />
+      <img class="prj" src="./images/i1.jpg" alt="color image" />
+    </section>
+    <article class="sec-out-div iHaveBgImage">
+      <img class="lap-img" src="./images/i11.png" alt="laptop image" />
       <div class="iam100">
         <span class="pp1"> New addition to Works and Services</span>
         <p class="pp-des1">
@@ -151,15 +151,15 @@
           Harum, eius in vero suscipit
         </p>
       </div>
-    </div>
-    <div class="last-sec-out">
-      <div class="last-sec-i1">
+    </article>
+    <section class="last-sec-out">
+      <article class="last-sec-i1">
         <h3 class="last-titl">Recent Testimonial</h3>
         <div class="g-img-div">
           <img
             class="g-img"
             src="https://img.freepik.com/free-photo/portrait-caucasian-woman-smiling_53876-24998.jpg?w=2000"
-            alt="person"
+            alt="person profile image"
           />
           <p class="g-des1">
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
@@ -168,21 +168,22 @@
             omnis accusamus mollitia. Quae, suscipit!"
           </p>
         </div>
-      </div>
-      <div class="last-sec-i2">
+      </article>
+      <article class="last-sec-i2">
         <h3 class="last-titl">Upcoming Event</h3>
         <p class="g-des2">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi natus
           incidunt quod adipisci nisi.
         </p>
-      </div>
-    </div>
-    <div class="footer-div">
+      </article>
+    </section>
+    <footer class="footer-div">
       <p class="footer">
         Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2023
         circleweb. All rights reserved.
       </p>
-    </div>
+    </footer>
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -199,6 +200,7 @@
       crossorigin="anonymous"
     ></script>
   </body>
+
   <script>
     document.getElementById("toggle").addEventListener("click", function () {
       document.getElementById("nav").classList.toggle("tg-off");
