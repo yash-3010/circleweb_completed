@@ -8,15 +8,11 @@
   justify-content: space-between;
 }
 
-.iHaveBgImage {
-  background-image: url(./images/i6.jpg);
-}
-
-.imwhite {
+.logo-color {
   color: white;
 }
 
-.iam100 {
+.full-width {
   width: 100%;
 }
 
@@ -54,11 +50,8 @@
 }
 
 .nav-op-div {
-  display: flex;
-}
-
-.nav-op-div {
   position: absolute;
+  display: flex;
   transition: all 0.3s ease-in-out;
   left: 0;
   right: 0;
@@ -82,7 +75,8 @@
   cursor: pointer;
 }
 .nav-btn:hover{
-  background-color: rgb(254 215 170);
+  background-color: #ff6600;
+  color: white;
 }
 
 .nav-btn:focus {
@@ -227,6 +221,7 @@
   margin-top: 2.5rem;
   width: 100%;
   height: 400px;
+  background-image: url(./images/i6.jpg);
 }
 
 .lap-img {
