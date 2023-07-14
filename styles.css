@@ -74,7 +74,8 @@
   display: block;
   cursor: pointer;
 }
-.nav-btn:hover{
+
+.nav-btn:hover {
   background-color: #ff6600;
   color: white;
 }
