@@ -4,8 +4,26 @@
   width: 100%;
   top: 0;
   z-index: 40;
-  background-color: rgb(243 244 246);
+  background-color: white;
   justify-content: space-between;
+}
+
+.containerized {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.showOnlyHover {
+  opacity: 0;
+  transition: all 0.3 ease-in-out;
+}
+
+.showOnlyHover:focus {
+  opacity: 0;
+}
+
+.showOnlyHover:hover {
+  opacity: 100%;
 }
 
 a:hover {
@@ -45,11 +63,13 @@ html {
 
 .tg-off {
   right: -100%;
+  left: 0;
   opacity: 0;
 }
 
 .tg-on {
   right: 0;
+  left: 0;
   opacity: 1;
 }
 
@@ -71,17 +91,13 @@ html {
 }
 
 .nav-op-div {
-  position: absolute;
-  display: flex;
+  position: fixed;
   transition: all 0.8s ease-in-out;
-  left: 0;
   top: 4rem;
   background-color: #000;
   color: #fff;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  display: grid;
-  place-items: center;
 }
 
 .nav-btn {
@@ -222,6 +238,8 @@ html {
 
 .sec-out-div {
   place-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
   height: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -310,6 +328,8 @@ html {
 }
 
 .footer-div {
+  margin: 0 auto;
+  max-width: 1400px;
   display: grid;
   padding: 0.75rem;
   place-items: center;
@@ -325,7 +345,7 @@ html {
 }
 
 
-@media screen and (min-device-width: 768px) {
+@media (min-width: 768px) {
   .logo-img {
     height: 90px;
     width: 180px;
@@ -387,6 +407,8 @@ html {
   .last-sec-out {
     display: flex;
     height: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
   }
 
   .pp-des1 {
@@ -471,13 +493,13 @@ html {
     position: static;
     display: flex;
     opacity: 100%;
-    background-color: rgb(243 244 246);
+    background-color: white;
     color: #000;
   }
 
 }
 
-@media screen and (min-device-width: 1024px) {
+@media (min-width: 1024px) {
   .lap-img {
     height: 200px;
     width: 400px;

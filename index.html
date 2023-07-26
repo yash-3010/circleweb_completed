@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CircleWeb</title>
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
-    <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -17,9 +16,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body id="home">
-    <header class="nav-div">
+    <header class="nav-div containerized">
       <a href="#home"
         ><img class="logo-img" src="./images/logo.png" alt="logo"
       /></a>
@@ -30,12 +30,12 @@
         <a href="#services" class="nav-btn">service</a>
         <a href="#portfolio" class="nav-btn">Portfolio</a>
         <a href="#blogs" class="nav-btn">blog</a>
-        <a href="#contact" class="nav-btn">Contact</a>
+        <a href="#about" class="nav-btn">Contact</a>
       </nav>
     </header>
     <section
       id="carouselExampleIndicators"
-      class="carousel slide"
+      class="carousel slide containerized"
       data-ride="carousel"
     >
       <ol class="carousel-indicators">
@@ -62,8 +62,26 @@
           <img class="main-img" src="./images/i19.jpg" alt="Third slide" />
         </div>
       </figure>
+      <a
+        class="carousel-control-prev showOnlyHover"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next showOnlyHover"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </section>
-    <section id="services">
+    <section id="services" class="containerized">
       <h1 class="main-title">Our Core Services</h1>
       <p class="serv-desc">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta
@@ -114,7 +132,7 @@
         </figure>
       </article>
     </section>
-    <section id="about">
+    <section id="about" class="containerized">
       <h1 id="portfolio" class="main-title">Our Latest Projects</h1>
       <figure class="prj-out-div">
         <img class="prj" src="./images/i1.jpg" alt="Project Image 1" />
