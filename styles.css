@@ -7,11 +7,13 @@
   background-color: white;
   justify-content: space-between;
 }
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
+
 .containerized {
   max-width: 1400px;
   margin: 0 auto;
@@ -19,7 +21,7 @@ body {
 
 .showOnlyHover {
   opacity: 0;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .showOnlyHover:focus {
@@ -343,6 +345,7 @@ html {
   padding: 0.75rem;
   place-items: center;
 }
+
 .bgStrech {
   width: 100%;
   flex-grow: 0;
@@ -357,6 +360,7 @@ html {
   line-height: 1.25rem;
   text-align: center;
 }
+
 .test {
   flex-grow: 1;
   flex-shrink: 0;
@@ -469,7 +473,7 @@ html {
   }
 
   .out-serv-ele-div {
-    padding: 10 0px;
+    padding: 10px 0;
     gap: 0;
     display: flex;
   }
@@ -569,6 +573,7 @@ html {
     display: block;
   }
 }
+
 @media (min-width: 3000px) {
   .main-img {
     min-height: 850px;
