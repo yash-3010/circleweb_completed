@@ -219,10 +219,12 @@ html {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-weight: 400;
+  display: inline-block;
 }
 
 .read-more-btn:hover {
   background-color: #ddd;
+  color: #000;
 }
 
 .prj-out-div {
@@ -276,6 +278,7 @@ html {
   border-bottom-width: 2px;
   border-style: dashed;
   border-color: #ff6600;
+  display: inline-block;
 }
 
 .pp-des1 {
